@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "bitsandbytes==0.43",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.5",
+    "peft>=0.13.0",
+    "setuptools>=75.1.0",
     "transformers>=4.45.1",
+    "trl>=0.11.1",
 ]
